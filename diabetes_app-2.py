@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load the dataset
-data = pd.read_csv("diabetes.csv")
+data = pd.read_csv("diabetes_app-2.py")
 
 # Split data into features (X) and target (y)
 X = data.drop("Outcome", axis=1)
